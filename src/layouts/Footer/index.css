@@ -1,0 +1,23 @@
+
+.sseFooter__logo {
+    width: 70px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.sseFooter__logo img {
+    width: 100%;
+}
+
+.sseFooter__page {
+    display: flex;
+    padding-top: 40px;
+}
+
+.sseFooter__infor {
+    padding-top: 40px;
+}
+
+.sseFooter__infor p {
+    font-size: 11px;
+}

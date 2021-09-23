@@ -1,0 +1,16 @@
+.sse__logo--loading {
+    position: relative;
+    width: 70px;
+    margin: 0 auto;
+}
+
+.sse__logo--loading img {
+    width: 100%;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+

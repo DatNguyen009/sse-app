@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+import './responsive.css';
 import './App.css';
+import './lib/bootstrap.min.css'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from './pages/Home/index';
+import Header from './layouts/Header/header';
+import Cursor from './components/Cursor/Cursor';
+import Footer from './layouts/Footer/Footer';
+import MainProgram from './pages/MainProgram/index';
+import Event from './pages/Event/Event';
+import News from './pages/News/News';
+import HRContact from './pages/HRContact/HRContact';
+import Login from './pages/Login/Login';
+import PostAdmin from './pages/PostAdmin/PostAdmin';
+import DetailPost from './components/DetailPost/DetailPost';
+import UserAdmin from './pages/UserAdmin/UserAdmin';
+import NotFound from './pages/NotFound/NotFound';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Cursor />
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/chuong-trinh-trong-diem" component={MainProgram}/>
+          <Route exact path="/su-kien" component={Event}/>
+          <Route exact path="/tin-tuc" component={News}/>
+          <Route exact path="/nhan-su-lien-he" component={HRContact}/>
+          <Route exact path="/dang-nhap" component={Login}/>
+          <Route exact path="/dang-bai" component={PostAdmin}/>
+          <Route exact path="/bai-viet/:slug" component={DetailPost}/>
+          <Route exact path="/user" component={UserAdmin}/>
+          <Route exact path="*" component={NotFound}/>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

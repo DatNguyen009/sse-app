@@ -1,0 +1,47 @@
+
+.sseHR__leader {
+    position: relative;
+    transform: translateX(3rem);
+}
+
+.item {
+    height: auto;
+}
+
+.crown,
+.queen,
+.member {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.fa.fa-crown,
+.fas.fa-chess-queen {
+    margin: 0px 3.7rem;
+    font-size: 2.5rem;
+    color: #ffbc00;
+}
+
+.fas.fa-user {
+    margin: 0 6.4rem;
+    font-size: 2.5rem;
+    color: #ffbc00;
+}
+
+.owl-prev,
+.owl-next {
+    display: none;
+}
+
+.sseHR__mobile {
+    display: none;
+}
+
+.items_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.items_flex .item {
+    margin-right: 6rem;
+}

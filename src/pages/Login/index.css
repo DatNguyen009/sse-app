@@ -1,0 +1,35 @@
+.sse__login{
+    
+    background-image: url("../../assets/logo/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 25rem;
+    height: 25rem;
+    opacity: 0.02;
+    z-index: 1;
+}
+
+.login__title{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.login__input{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 25rem;
+    z-index: 999;
+}
+.login__btn{
+    /* margin: 0 auto 5rem;
+    display: grid!important;
+    width: auto;
+    text-align: center; */
+}

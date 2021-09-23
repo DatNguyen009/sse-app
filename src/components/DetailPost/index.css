@@ -1,0 +1,27 @@
+.EventMain__startup {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    background-color: #f5e2e5;
+}
+
+.EventMain__event--content {
+    padding: 20px 80px;
+}
+
+.EventMain__event--content p {
+    font-family: 'Noto Serif', serif;
+    font-size: 17px;
+}
+
+.EventMain__event--image p {
+    font-size: 15px;
+    color: blue;
+    align-content: center;
+    align-self: center;
+}
+
+img {
+    display: grid;
+    margin: 0 auto;
+}

@@ -1,0 +1,359 @@
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .cursor {
+        display: none!important;
+    }
+    .col-sm-2,
+    .col-sm-4 {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .col-sm-5 {
+        display: none!important;
+    }
+    .row {
+        flex-wrap: nowrap!important;
+    }
+    .sse__listMenu {
+        display: none!important;
+        text-align: center!important;
+    }
+    .sse__type{
+        display: grid!important;
+    }
+    h3 {
+        font-size: 20px!important;
+        padding-top: 20px!important;
+    }
+    .logo_BSSC {
+        padding-top: 10px!important;
+    }
+    .logo_BSSC img {
+        width: 140%!important;
+    }
+    .logo_SVF img {
+        width: 150%!important;
+    }
+    .logo_SVF {
+        padding-top: 10px!important;
+        margin-left: 10px!important;
+    }
+    .logo_SVF img {
+        width: 150%!important;
+    }
+    .logo_Coffee {
+        padding-top: 10px!important;
+    }
+    .logo_Coffee img {
+        width: 125%!important;
+    }
+    .sseFooter__page {
+        display: none!important;
+    }
+    .sseFooter__infor p {
+        font-size: 10px!important;
+    }
+    /* start program */
+    h4 {
+        font-size: 18px!important;
+        text-align: center!important;
+        margin: 0 auto!important;
+    }
+    input#myInput {
+        margin: 2rem 0rem!important;
+        width: 100%!important;
+    }
+    .EventMain__event {
+        margin: 0!important;
+        width: 100%!important;
+    }
+    .EventMain__image {
+        width: 50%!important;
+        margin: 20px 5px 20px 5px!important;
+    }
+    
+    .EventMain__content {
+        width: 50%!important;
+        margin: 20px 0 20px 10px!important;
+    }
+    .EventMain__content--titel p {
+        font-size: 11px!important;
+        width: 80%!important;
+    }
+    .EventMain__content--compact p {
+        font-size: 10px!important;
+        width: 100%!important;
+    }
+    .member {
+        display: flex!important;
+        justify-content: center!important;
+    }
+    .fas.fa-user {
+        margin: 0px 2.5rem!important;
+        font-size: 25px!important;
+    }
+    .EventMain__event--content {
+        padding: 20px 10px!important;
+    }
+    .EventMain__event--content p {
+        font-size: 17px!important;
+    }
+    /* end program */
+    .EventMain__startup {
+        margin-top: 20px!important;
+        width: 100%!important;
+    }
+    .sseHR {
+        display: none!important;
+    }
+    .sseHR__mobile {
+        display: block!important;
+    }
+    .sseHR__leader {
+        transform: translateX(0rem)!important;
+    }
+    .items_flex .item {
+        margin: 0rem 0.5rem!important;
+    }
+}
+
+
+/* responsive 425->667 */
+
+@media only screen and (min-width: 425px) and (max-width: 667px) {
+    .cursor {
+        display: none!important;
+    }
+    .col-sm-2,
+    .col-sm-4 {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .row {
+        flex-wrap: nowrap!important;
+    }
+    .sse__listMenu {
+        display: none!important;
+        text-align: center!important;
+    }
+    .sse__type{
+        display: grid!important;
+    }
+    h3 {
+        font-size: 20px!important;
+        padding-top: 20px!important;
+    }
+    .logo_BSSC {
+        padding-top: 10px!important;
+    }
+    .logo_BSSC img {
+        width: 140%!important;
+    }
+    .logo_SVF img {
+        width: 150%!important;
+    }
+    .logo_SVF {
+        padding-top: 10px!important;
+        margin-left: 10px!important;
+    }
+    .logo_SVF img {
+        width: 150%!important;
+    }
+    .logo_Coffee {
+        padding-top: 10px!important;
+    }
+    .logo_Coffee img {
+        width: 125%!important;
+    }
+    .sseFooter__page {
+        display: none!important;
+    }
+    .sseFooter__infor p {
+        font-size: 10px!important;
+    }
+    /* start program */
+    h4 {
+        font-size: 18px!important;
+        text-align: center!important;
+        margin: 0 auto!important;
+    }
+    input#myInput {
+        margin: 2rem 0rem!important;
+        width: 100%!important;
+    }
+    .EventMain__event {
+        margin: 0!important;
+        width: 100%!important;
+    }
+    .EventMain__image {
+        width: 50%!important;
+        margin: 20px 5px 20px 5px!important;
+    }
+    
+    .EventMain__content {
+        width: 50%!important;
+        margin: 20px 0 20px 10px!important;
+    }
+   
+    .EventMain__content--titel p {
+        font-size: 11px!important;
+    }
+    .EventMain__content--compact p {
+        font-size: 10px!important;
+        width: 202px!important;
+    }
+    .member {
+        display: flex!important;
+        justify-content: center!important;
+    }
+    .fas.fa-user {
+        margin: 0 4.5rem!important;
+    }
+    .EventMain__event--content {
+        padding: 20px 10px!important;
+    }
+    .EventMain__event--content p {
+        font-size: 17px!important;
+    }
+    /* end program */
+    .EventMain__startup {
+        margin-top: 20px!important;
+        width: 100%!important;
+    }
+    .sseHR {
+        display: none!important;
+    }
+    .sseHR__mobile {
+        display: block!important;
+    }
+    .sseHR__leader {
+        transform: translateX(0rem)!important;
+    }
+    .items_flex .item {
+        margin: 0rem 0.5rem!important;
+    }
+}
+
+
+/* responsive 668->767 */
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+    .cursor {
+        display: none;
+    }
+    .sse__logo {
+        margin-top: -23px;
+    }
+    .col-sm-2,
+    .col-sm-4 {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .row {
+        flex-wrap: nowrap!important;
+    }
+    .sse__listMenu {
+        display: none;
+        text-align: center;
+    }
+    .sse__type{
+        display: grid!important;
+    }
+    .sseFooter__logo {
+        margin: 0;
+    }
+    h3 {
+        font-size: 20px!important;
+        padding-top: 20px!important;
+    }
+    .logo_BSSC {
+        padding-top: 10px;
+    }
+    .logo_BSSC img {
+        width: 140%!important;
+    }
+    .logo_SVF img {
+        width: 150%!important;
+    }
+    .logo_SVF {
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+    .logo_SVF img {
+        width: 150%!important;
+    }
+    .logo_Coffee {
+        padding-top: 10px;
+    }
+    .logo_Coffee img {
+        width: 125%!important;
+    }
+    .sseFooter__page {
+        display: none;
+    }
+    .sseFooter__infor p {
+        font-size: 10px;
+    }
+    /* start program */
+    h4 {
+        font-size: 18px!important;
+        text-align: center!important;
+        margin: 0 auto!important;
+        width: auto!important;
+    }
+    input#myInput {
+        margin: 2rem 0rem!important;
+        width: 100%!important;
+    }
+    .EventMain__event {
+        margin: 0;
+        width: 100%;
+    }
+    .EventMain__image {
+        margin: 20px 0 20px 10px;
+    }
+    .EventMain__image img {
+        width: 50%;
+    }
+    .EventMain__content {
+        position: absolute;
+        margin: 1rem 3rem 0rem 9rem;
+    }
+    .EventMain__content--titel p {
+        font-size: 11px;
+        width: 80%;
+    }
+    .EventMain__content--compact p {
+        font-size: 10px;
+        width: 202px!important;
+    }
+    .member {
+        display: flex;
+        justify-content: center;
+    }
+    .fas.fa-user {
+        margin: 0 4.5rem;
+    }
+    .EventMain__event--content {
+        padding: 20px 10px;
+    }
+    .EventMain__event--content p {
+        font-size: 17px;
+    }
+    /* end program */
+    .EventMain__startup {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .sseHR {
+        display: none;
+    }
+    .sseHR__mobile {
+        display: block;
+    }
+    .sseHR__leader {
+        transform: translateX(0rem);
+    }
+    .items_flex .item {
+        margin: 0rem 0.5rem;
+    }
+}

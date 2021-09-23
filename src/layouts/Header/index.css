@@ -1,0 +1,76 @@
+
+.sse__logo {
+    width: 70px;
+    margin: 0 auto;
+}
+
+.sse__logo img {
+    width: 100%;
+    animation: logoMove 50s infinite;
+}
+
+@keyframes logoMove {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+
+.border__bottom {
+    position: relative;
+    transform: translateY(-15px);
+    width: 100%;
+    height: 2px;
+    background-color: #fb667f;
+    opacity: 0;
+}
+
+.sse__listMenu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.sse__listMenu a {
+    padding-right: 40px;
+    cursor: none;
+}
+
+
+.sse__listMenu a p {
+    color: black;
+    font-weight: 500;
+}
+
+.sse__listMenu a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.sse__listMenu a:hover .border__bottom {
+    animation-name: boder__bottom--listmenu;
+    animation-duration: .9s;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+}
+
+@keyframes boder__bottom--listmenu {
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.sse__type {
+    margin: 1.3rem 0rem 0 0rem;
+}
+
+.sse__type--items {
+    margin-top: 2px;
+    width: 2rem;
+    height: 2px;
+    background-color: black;
+}
