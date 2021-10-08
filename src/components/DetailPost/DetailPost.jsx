@@ -26,7 +26,7 @@ export default function DetailPost() {
                 {
                     listPosts?.map((item, index) => (
                         <div key={'detailPost' + index}>
-                            <h4 style={{margin: '2rem 0 2rem 15rem',color: '#0a9cf1',borderBottom: '2px solid  #0a9cf1',width: 'max-content'}}>
+                            <h4 style={{margin: '2rem 15rem',color: '#0a9cf1',borderBottom: '2px solid  #0a9cf1'}}>
                                 {item.post_title}
                             </h4>
                             <div className="EventMain__startup">

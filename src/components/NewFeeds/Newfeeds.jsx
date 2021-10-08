@@ -2,6 +2,10 @@ import React from 'react'
 import { useHistory } from 'react-router';
 import { SearchPost } from './../../utils/searchPost';
 import './index.css'
+import { EditorState, convertToRaw } from 'draft-js';
+import draftToHtml from 'draftjs-to-html';
+import htmlToDraft from 'html-to-draftjs';
+import ReactHtmlParser from 'react-html-parser';
 
 export default function Newfeeds(props) {
     const {title, listPosts} =  props;
@@ -32,7 +36,7 @@ export default function Newfeeds(props) {
                                 </div>
                                 <div className="EventMain__content--compact">
                                     <p className="text-truncate" style={{width: '21rem'}}>
-                                    Ngày 21/12/2019, tại Hội trường A Trường ĐH Giao thông vận tải TP.HCM, CLB Khởi Nghiệp đã tổ chức thành công Chung kết cuộc thi
+                                        {ReactHtmlParser(item.post_content).slice(0,1)}
                                     </p>
                                 </div>
                             </div>
